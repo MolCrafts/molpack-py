@@ -1,0 +1,3 @@
+[submodule "external/molpack"]
+	path = external/molpack
+	url = https://github.com/MolCrafts/molpack.git
