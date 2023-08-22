@@ -5,4 +5,6 @@ class Region:
     ...
 
 class SphericalRegion(_SphericalRegion):
-    pass
+    
+    def __init__(self, center, radius):
+        super().__init__(tuple(center), radius)
