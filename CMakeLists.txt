@@ -18,7 +18,7 @@ set_target_properties(molpackcpp PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/src/molpack
 )
 
-install(
-    TARGETS molpackcpp
-    LIBRARY DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/src/molpack
-)
+# install(
+#     TARGETS molpackcpp
+#     LIBRARY DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/src/molpack
+# )

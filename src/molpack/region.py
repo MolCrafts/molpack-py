@@ -1,4 +1,4 @@
-from molpackcpp import SphericalRegion as _SphericalRegion
+from .molpackcpp.region import SphericalRegion as _SphericalRegion
 # from molpackcpp import CubicRegion as _CubicRegion
 
 class Region:
